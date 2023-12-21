@@ -41,3 +41,20 @@ a{
     background-position: center;
     height: 400px;
 }
+
+@media (max-width: 460px) {
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        margin: 25px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin: 15px;
+    } 
+
+    
+}
